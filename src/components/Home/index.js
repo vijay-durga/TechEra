@@ -76,7 +76,7 @@ class Home extends Component {
     const {courses} = this.state
     return (
       <div className="home-main-container">
-        <h1 className="courses-title">Courses</h1>
+        <p className="courses-title">Courses</h1>
         <ul className="courses-list-container">
           {courses.map(item => (
             <Link to={`/courses/${item.id}`} key={item.id}>
