@@ -65,7 +65,7 @@ class Home extends Component {
       <button
         type="button"
         className="failure-button"
-        onClick={this.getDetails()}
+        onClick={this.getDetails}
       >
         Retry
       </button>
